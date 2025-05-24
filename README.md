@@ -47,20 +47,25 @@ A secure and scalable vacation rental platform. This project primarily focuses o
     Open your browser and navigate to `http://localhost:3000` (or the port your server runs on) to view the front-end and interact with the backend.
 
 ## 📁 Project Structure
-
+```
 WanderLust/
-│
-├── controllers/        # Logic for handling requests (MVC)
-├── models/             # Mongoose schemas for MongoDB (MVC)
-├── routes/             # API endpoint definitions (MVC)
-├── public/             # Static files for the frontend (HTML, CSS, JS) 
-├── views/              # Frontend templates (if using a templating engine)
-├── config/             # Configuration files (e.g., database connection)
-├── utils/              # Utility functions
-├── .env                # Environment variables
-├── app.js              # Main application entry point
-├── package.json        # Project metadata and dependencies
-└── README.md           # This readme file
+├── controllers/          # Logic for handling requests (MVC)
+├── models/               # Mongoose schemas for MongoDB (MVC)
+├── routes/               # API endpoint definitions (MVC)
+├── public/               # Static files for the frontend (HTML, CSS, JS)
+│   ├── css/              # Stylesheets
+│   ├── js/               # Client-side JavaScript
+│   └── images/           # Images used in the frontend
+├── views/                # Frontend templates (if using a templating engine like EJS, Pug)
+│   ├── layouts/          # Common layout templates
+│   └── partials/         # Reusable template partials
+├── config/               # Configuration files (e.g., database connection, Passport setup)
+├── utils/                # Utility functions (e.g., helpers, error handling)
+├── .env                  # Environment variables
+├── app.js                # Main application entry point
+├── package.json          # Project metadata and dependencies
+└── README.md             # This readme file
+```
 
 ## 🌟 Future Enhancements
 
